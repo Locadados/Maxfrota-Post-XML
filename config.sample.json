@@ -1,0 +1,15 @@
+{
+    "usuario": "",
+    "chave": "",
+    "origem": 1,
+    "rota": 1,
+    "veiculo": "",
+    "dias_para_entrega": 1,
+    "hora_limite": "23:59:59",
+    "diretorio_observado": "C:\\NOTAS_FISCAIS",
+    "diretorio_destino": "C:\\PROCESSADAS",
+    "url": "http://maxfrota.com.br/api/entregas/adicionar/index.php?rest",
+    "porta_status": "2200",
+    "modo_depuracao": true,
+    "cabecalho_csv": false
+}

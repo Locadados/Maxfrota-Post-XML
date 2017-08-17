@@ -1,0 +1,34 @@
+{
+  "name": "maxfrota-post-xml",
+  "version": "1.0.0",
+  "description": "Aplicativo de Conversão de Arquivo Texto e Notas Fiscais para Api de Entregas Maxfrota",
+  "main": "postxml.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Locadados/Maxfrota-Post-XML.git"
+  },
+  "keywords": [
+    "locadados",
+    "maxfrota",
+    "api",
+    "xml"
+  ],
+  "author": "Locadados Data Solutions",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Locadados/Maxfrota-Post-XML/issues"
+  },
+  "homepage": "https://github.com/Locadados/Maxfrota-Post-XML#readme",
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "csvjson": "^4.3.3",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.18.1",
+    "request": "^2.81.0",
+    "xml2js": "^0.4.17"
+  }
+}
