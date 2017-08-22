@@ -29,14 +29,15 @@
     "auto-updater": "^1.0.2",
     "chokidar": "^1.6.1",
     "csvjson": "^4.3.3",
+    "fs-extra": "^4.0.1",
     "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
     "moment": "^2.18.1",
     "request": "^2.81.0",
     "xml2js": "^0.4.17"
   },
-  "auto-updater":{
-	"repo":"/Locadados/Maxfrota-Post-XML",
-  	"branch":"master"
+  "auto-updater": {
+    "repo": "/Locadados/Maxfrota-Post-XML",
+    "branch": "master"
   }
 }

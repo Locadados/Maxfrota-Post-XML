@@ -1,6 +1,14 @@
 #!/usr/bin/env node
-var config = require('./config.json');
 var fs = require('fs');
+var fsx = require('fs-extra');
+//var pusage = require('pidusage')
+
+//Verifica a existência do arquivo de configuração
+if (!fs.existsSync('./config.json') && fs.existsSync('./config.sample.json')) {
+  fs.copySync('./config.sample.json', './config.json');
+}
+var config = require('./config.json');
+
 //var updater = require('./lib/updater')(config);
 var xml2js = require('xml2js');
 var chokidar = require('chokidar');
