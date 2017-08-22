@@ -1,13 +1,13 @@
 #!/usr/bin/env node
-
+var config = require('./config.json');
 var fs = require('fs');
+var updater = require('./lib/updater')(config);
 var xml2js = require('xml2js');
 var chokidar = require('chokidar');
 var parseString = xml2js.parseString;
 var parser = new xml2js.Parser();
 var builder = new xml2js.Builder();
 var request = require('request');
-var config = require('./config.json');
 var pkg = require('./package.json');
 var path = require('path');
 var http = require('http');

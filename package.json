@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Locadados/Maxfrota-Post-XML.git"
   },
-  "bin" : {
+  "bin": {
     "maxfrota-post-xml": "postxml.js"
   },
   "keywords": [
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/Locadados/Maxfrota-Post-XML#readme",
   "dependencies": {
+    "auto-updater": "^1.0.2",
     "chokidar": "^1.6.1",
     "csvjson": "^4.3.3",
     "lodash": "^4.17.4",
@@ -33,5 +34,9 @@
     "moment": "^2.18.1",
     "request": "^2.81.0",
     "xml2js": "^0.4.17"
+  },
+  "auto-updater":{
+	"repo":"/Locadados/Maxfrota-Post-XML",
+  	"branch":"master"
   }
 }
