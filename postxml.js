@@ -6,7 +6,6 @@ var fs = require('fs-extra');
 if (!fs.existsSync('./config.json') && fs.existsSync('./config.sample.json')) {
   fs.copySync('./config.sample.json', './config.json');
 }
-var config = require('./config.json');
 var npmAutoUpdate = new (require('npm-auto-update'))(console);
 npmAutoUpdate.checkForUpdate((error, result) => {
   console.log(result);
@@ -14,6 +13,8 @@ npmAutoUpdate.checkForUpdate((error, result) => {
     this.npmAutoUpdate.updatePackage((error, result) => {});
   }
 });
+var config = require('./config.sample.json');
+///TESTE
 //var updater = require('./lib/updater')(config);
 var xml2js = require('xml2js');
 var chokidar = require('chokidar');

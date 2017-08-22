@@ -1,6 +1,6 @@
 {
   "name": "maxfrota-post-xml",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Aplicativo de Conversão de Arquivo Texto e Notas Fiscais para Api de Entregas Maxfrota",
   "main": "postxml.js",
   "scripts": {
