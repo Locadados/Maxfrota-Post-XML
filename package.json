@@ -1,6 +1,6 @@
 {
   "name": "maxfrota-post-xml",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Aplicativo de Conversão de Arquivo Texto e Notas Fiscais para Api de Entregas Maxfrota",
   "main": "postxml.js",
   "scripts": {
@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/Locadados/Maxfrota-Post-XML#readme",
   "dependencies": {
-    "auto-updater": "^1.0.2",
     "chokidar": "^1.6.1",
     "csvjson": "^4.3.3",
     "fs-extra": "^4.0.1",
     "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
     "moment": "^2.18.1",
+    "npm-auto-update": "^1.1.3",
     "request": "^2.81.0",
     "xml2js": "^0.4.17"
   },
