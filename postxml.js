@@ -1,21 +1,7 @@
 #!/usr/bin/env node
 var fs = require('fs-extra');
 //var pusage = require('pidusage')
-
-//Verifica a existência do arquivo de configuração
-if (!fs.existsSync('./config.json') && fs.existsSync('./config.sample.json')) {
-  fs.copySync('./config.sample.json', './config.json');
-}
-var npmAutoUpdate = new (require('npm-auto-update'))(console);
-npmAutoUpdate.checkForUpdate((error, result) => {
-  console.log(result);
-  if(result) {
-    this.npmAutoUpdate.updatePackage((error, result) => {});
-  }
-});
-var config = require('./config.sample.json');
-///TESTE
-//var updater = require('./lib/updater')(config);
+var config = require('./lib/config');
 var xml2js = require('xml2js');
 var chokidar = require('chokidar');
 var parseString = xml2js.parseString;
